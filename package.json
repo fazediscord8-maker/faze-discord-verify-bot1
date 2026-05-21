@@ -1,0 +1,17 @@
+{
+  "name": "faze-discord-verify-bot-fast",
+  "version": "2.0.0",
+  "description": "Santiago RP Discord verification bot with fast MTA bridge",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=20 <23"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
