@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: faze-discord-verify-bot-fast
-    env: node
-    plan: free
-    buildCommand: npm install
-    startCommand: npm start
